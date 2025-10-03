@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  let blowCount = 0;
+  let blowCount = 1;
   const blowButton = document.getElementById('blow-button');
   const blowText = document.getElementById('blow-count');
   const cakeContainer = document.getElementById('cake-container');
