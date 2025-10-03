@@ -1,0 +1,44 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #fff0f5;
+  text-align: center;
+  padding: 30px;
+  color: #333;
+}
+
+.hidden {
+  display: none;
+}
+
+#candle-container img {
+  width: 150px;
+}
+
+#cake-container img {
+  width: 200px;
+  margin-top: 20px;
+}
+
+#card-container {
+  margin-top: 30px;
+}
+
+#card-container img {
+  width: 150px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+#card-container img:hover {
+  transform: scale(1.05);
+}
+
+#card-message {
+  margin-top: 20px;
+  background-color: #ffe4e1;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  max-width: 600px;
+  font-size: 1.1em;
+}
